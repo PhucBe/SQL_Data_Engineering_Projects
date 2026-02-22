@@ -1,8 +1,4 @@
-SELECT
-    job_id,
-    job_title_short,
-    salary_year_avg,
-    company_id
+SELECT DISTINCT
+    job_title_short
 FROM
-    job_postings_fact
-LIMIT 10;
+    job_postings_fact;
